@@ -30,4 +30,21 @@ prevButton.onclick = () => {
     setSlider()
 }
 
+document.getElementById("search-form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Evita o recarregamento da página
+
+    let input = document.getElementById("search-input").value.toLowerCase();
+    let items = document.querySelectorAll(".list .item");
+
+    items.forEach(item => {
+        let contentText = item.textContent.toLowerCase();
+
+        if (contentText.includes(input) && input.trim() !== "") {
+            item.classList.add("active"); // Ativa a animação
+        } else {
+            item.classList.remove("active"); // Esconde os que não correspondem
+        }
+    });
+});
+
 
