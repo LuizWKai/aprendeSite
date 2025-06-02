@@ -1,5 +1,8 @@
-🎯 Projeto: Vavazin — Galeria de Agentes do Valorant
+🎯 Projeto: Valorant — Galeria de Agentes do Valorant
 Este é um site desenvolvido com HTML, CSS e JavaScript, com o objetivo de apresentar os agentes do jogo Valorant de forma interativa e responsiva. Cada agente possui sua própria imagem, descrição e categoria.
+
+![image](https://github.com/user-attachments/assets/6e1f633c-f155-4836-99d2-83c86bbaca74)
+
 
 📌 Funcionalidades
 
